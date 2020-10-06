@@ -5,3 +5,4 @@ if __name__ == '__main__':
         name, *line = input().split()
         scores = list(map(float, line))
         student_marks[name] = scores
+    querry_name = input()
