@@ -12,3 +12,6 @@ if __name__ == '__main__':
 
 # Extract the value into a list: query_scores
 querry_scores = student_marks[querry_name]
+
+# Sum the scores in the list: total_scores
+total_scores = sum(querry_scores)
