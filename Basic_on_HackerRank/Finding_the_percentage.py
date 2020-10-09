@@ -1,23 +1,8 @@
-# Import decimal
-from decimal import Decimal
+n = int(raw_input())
+mydict = {}
+for line in range(n):
+    info = raw_input().split(" ")
+    score = map(float, info[1:])
+    mydict[info[0]] = sum(score) / float(len(score))
 
-if __name__ == '__main__':
-    n = int(input())
-    student_marks = {}
-    for _ in range(n):
-        name, *line = input().split()
-        scores = list(map(float, line))
-        student_marks[name] = scores
-    querry_name = input()
-
-# Extract the value into a list: query_scores
-querry_scores = student_marks[querry_name]
-
-# Sum the scores in the list: total_scores
-total_scores = sum(querry_scores)
-
-# Convert the floats to dicimals and average the scores: avg
-avg = Decimal(total_scores/3)
-
-# Print the mean of the scores, correct to two decimals
-print(round(avg,2))
+print "%.2f" % round(mydict[raw_input()],2) 
