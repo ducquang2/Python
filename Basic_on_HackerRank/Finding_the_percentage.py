@@ -15,3 +15,6 @@ querry_scores = student_marks[querry_name]
 
 # Sum the scores in the list: total_scores
 total_scores = sum(querry_scores)
+
+# Convert the floats to dicimals and average the scores: avg
+avg = Decimal(total_scores/3)
