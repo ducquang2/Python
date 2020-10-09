@@ -18,3 +18,6 @@ total_scores = sum(querry_scores)
 
 # Convert the floats to dicimals and average the scores: avg
 avg = Decimal(total_scores/3)
+
+# Print the mean of the scores, correct to two decimals
+print(round(avg,2))
