@@ -1,1 +1,0 @@
-Just basic learning on HackerRank.
