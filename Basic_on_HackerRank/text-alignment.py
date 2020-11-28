@@ -38,3 +38,31 @@ for i in range(thickness+1):
 
 for i in range(thickness):
     print(((c*(thickness-i-1)).rjust(thickness)+c+(c*(thickness-i-1)).ljust(thickness)).rjust(thickness*6))
+
+
+# Out put be like (if input = 5)
+#     H
+#    HHH
+#   HHHHH
+#  HHHHHHH
+# HHHHHHHHH
+#   HHHHH               HHHHH
+#   HHHHH               HHHHH
+#   HHHHH               HHHHH
+#   HHHHH               HHHHH
+#   HHHHH               HHHHH
+#   HHHHH               HHHHH
+#   HHHHHHHHHHHHHHHHHHHHHHHHH
+#   HHHHHHHHHHHHHHHHHHHHHHHHH
+#   HHHHHHHHHHHHHHHHHHHHHHHHH
+#   HHHHH               HHHHH
+#   HHHHH               HHHHH
+#   HHHHH               HHHHH
+#   HHHHH               HHHHH
+#   HHHHH               HHHHH
+#   HHHHH               HHHHH
+#                     HHHHHHHHH
+#                      HHHHHHH
+#                       HHHHH
+#                        HHH
+#                         H 
