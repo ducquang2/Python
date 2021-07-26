@@ -20,7 +20,7 @@ def reverse_words_order_and_swap_cases(sentence):
     out=''
     for i in sentence.split(' '):
         out += i[::-1] + ' '
-    return out.swapcase()
+    return out[-2::-1].swapcase()
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
