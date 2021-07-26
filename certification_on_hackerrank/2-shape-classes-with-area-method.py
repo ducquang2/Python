@@ -9,10 +9,23 @@ import sys
 
 
 class Rectangle:
-    pass
+    a = 0
+    b = 0
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def area(self):
+        return self.a*self.b
 
 class Circle:
-    pass
+    r = 0
+    def __init__(self, r):
+        self.r = r
+
+    def area(self):
+        return 2*3.14*self.r*self.r
+
 if __name__ == '__main__':  
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
     q = int(input())
