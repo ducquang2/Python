@@ -24,7 +24,7 @@ class Circle:
         self.r = r
 
     def area(self):
-        return 2*3.14*self.r*self.r
+        return math.pi*self.r*self.r
 
 if __name__ == '__main__':  
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
